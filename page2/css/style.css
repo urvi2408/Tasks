@@ -1,0 +1,269 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navabar{
+    padding-right: 650px;
+    font-size: 30px;
+}
+.airspace{
+    margin-left: 78px;
+    width: 183px;
+    height: 80px;
+}
+.sec1{
+    position: relative;
+}
+.block{
+    position: relative;
+    color: white;
+    top: -424px;
+    text-align: center;
+    left: 11px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+}
+.button {
+    background-color: hsl(280, 39%, 49%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.lefttext p{
+    color: rgba(128, 128, 128, 0.988);
+}
+.img{
+    width: 100%;
+    height: 628px;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    height: 368px;
+}
+.lefttext {
+    position: relative;
+    color: black;
+    top: -159px;
+    line-height: 2em;
+    text-align: left;
+    left: 11px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 17px;
+}
+.righttext p{
+    color: rgba(128, 128, 128, 0.988);
+}
+.img2{
+    position: relative;
+    height: 471px;
+    width: 529px;
+    top: -184px;
+}
+.img3{
+    width: 787px;
+    height: 640px;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(241,241,241);
+    height: 654px;
+}
+.righttext{
+    color: black;
+    line-height: 2em;
+    text-align: left;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 17px;
+    padding-top: 76px;
+    padding-right: 132px;
+}
+.button2{
+    background-color: hsl(280, 39%, 49%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+.sec4{
+    height: 836px;
+    text-align: center;
+}
+.sec4>h1{
+    padding-top: 85px;
+}
+.sec4 p{
+    color: rgba(0, 0, 0, 0.622);
+}
+.tables{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 157px;
+    margin-right: 157px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.table{
+    width: 252px;
+    height: 200px;
+    margin-top:10px;
+    margin-bottom: 56px;
+}
+.table1_para{
+    color: black;
+    line-height: 1.5em;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 17px;
+}
+.tea{
+    height: 70px;
+    width: 70px;
+}
+.location{
+    height: 70px;
+    width: 70px;
+}
+.gallery{
+    height: 70px;
+    width: 70px;
+}
+.start_up{
+    height: 70px;
+    width: 70px;
+}
+.music{
+    height: 70px;
+    width: 70px;
+}
+.leave{
+    height: 70px;
+    width: 70px;
+}
+.pluto{
+    height: 70px;
+    width: 70px;
+}
+.earth{
+    height: 70px;
+    width: 70px;
+}
+.img4{
+    width: 100%;
+    height: 377px;
+}
+.sec5{
+    height:380px;
+}
+.sec5_block{
+    position: relative;
+    color: white;
+    top: -289px;
+    text-align: center;
+    left: 11px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+}
+.sec5_button{
+    background-color:transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border:2px white solid;
+}
+.sec6{
+    text-align: center;
+    height: 615px;
+}
+.sec6 h3{
+    font-size: 30px;
+    margin-top: 96.72px;
+    margin-bottom: 0px;
+}
+.sec6 p{
+    font-size: 21px;
+    line-height: 1.5em;
+    color: gray;
+}
+.sec6_flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.img_flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 542px;
+    height:420px;
+    /* background-color: aqua; */
+}
+.img5{
+    height: 60px;
+    width: 60px;
+}
+.img6{
+    height: 60px;
+    width: 60px;
+}
+.img7{
+    height: 50px;
+    width: 50px;
+}
+.img8{
+    height: 50px;
+    width: 50px;
+}
+.text_img{
+    background-color: white;
+    border:2px rgba(128, 128, 128, 0.595) solid;
+    height: 418px;
+    width: 542px;
+}
+.text_img label{
+    color: rgba(0, 0, 0, 0.622);
+}
+.column{
+    height: 210px;
+    width: 237px;
+}
+.column  h2{
+    margin-top: 2px;
+    font-size: 45px;
+}
+.column h4{
+    font-size: 21px;
+    color: gray;
+}
+.girl{
+    border-radius: 100%;
+}
+.sec7{
+    height: 310px;
+    background-color: lightgray;
+    text-align: center;
+}
+.firstclass{
+    font-size:25px;
+    padding-top: 113px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(0, 0, 0, 0.727);
+}
+.secondclass{
+    font-size:20px;
+    padding-top: 0px;
+    color: rgba(0, 0, 0, 0.622);
+}

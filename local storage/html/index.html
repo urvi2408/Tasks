@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First_Form</title>
+    <link href="../css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="login_div">
+    <header>
+            <h1>Customer Details:</h1>
+    </header>
+    <hr>
+    <form name="customerform" >
+           <label >Full Name:</label><br>
+           <input type="text"  name="firstname" maxlength="10" style="height:20px; width:250px;">
+           <input type="text"  name="lastname" maxlength="10" style="height:20px; width:250px;"><br>
+           <label style= "position: relative;font-size: x-small;">first name</label>
+           <label style= "position: relative;font-size: x-small;left:220px ;">last name</label>
+        <br><br>
+           <!-- <label>Address:</label><br>
+           <input type="text" name="address" style="height:20px; width:512px ;"><br>
+           <label style= "position: relative;font-size: x-small;">Street Address</label>
+           <pre></pre>
+           <input type="text" style="height:20px; width:512px;"><br>
+           <label style= "position: relative;font-size: x-small;">Street Address line 2</label>
+           <pre></pre> -->
+           <!-- <input type="text" name="city" style="height:20px; width:250px;">
+           <input type="text" name="state" style="height:20px; width:250px;"><br>
+           <label style= "position: relative;font-size: x-small;">city</label>
+           <label style= "position: relative;font-size: x-small;left:245px ;">state/province</label>
+           <pre></pre>  -->
+           <!-- <input type="text" name="zipcode" maxlength="6" style="height:20px; width:512px ;" ><br>
+           <label style= "position: relative;font-size: x-small;">postal/zip code</label> 
+        <br><br>  -->
+            <label>Phone Number:</label><br>
+            <input type="tel" name="mobile" placeholder="(000) 000-0000 " maxlength="10" style="height:20px; width:250px;">
+        <br><br>
+            <label>E-mail:</label><br>
+            <input type="email" name="email" placeholder="ex: email@gmail.com " style="height:20px; width:250px;"><br>
+            <label style= "position: relative;font-size: x-small;">example@example.com</label>
+        <br><br>
+            <!-- <label>How did you hear about us?</label><br>
+            <select name="dropdown" style="height:30px; width:255px;">
+                <option value="select">select</option>
+                <option value="magazine">Magazine</option>
+                <option value="social media">social media</option>
+            </select>
+        <br><br>
+            <label>Will you be willing to recommend us?</label>
+            <input type="checkbox" name="checkbox">
+        <br><br> -->
+            <label>Gender: </label>
+            <label><input type="radio" name="Gender" value="male">Male</label>
+            <label><input type="radio" name="Gender" value="female">Female</label>
+            <label><input type="radio" name="Gender" value="others">Others</label>
+        <br><br>
+            <label >Password:</label><br> 
+            <input type="password" name="password"  style="height:20px; width:250px;"><br>
+    <footer> 
+        <hr>
+            <input type="button" name="btn" style="color:white ;background-color: green; border: none;" onclick="validateForm()" value="submit"></input>
+        <hr>
+            <input type="button" style="color:white ;background-color: green; border: none;" onclick={deleteitems()} value="delete items"></input>
+    </footer> 
+    </form>
+
+    </div>
+    <script src="../js/script.js"></script>
+</body>

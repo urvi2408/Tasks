@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First_Form</title>
+    <style>
+    body{
+        background-color: gray;
+    }
+    .required:after {
+        content:" *";
+        color: red;
+    }
+    .login_div {
+        margin: auto;
+        width: 530px;
+        background-color: white;
+        padding: 60px;
+    }  
+    table, th, td {
+                  border: 1px solid lightgray;
+                  border-collapse:collapse ;
+                }
+    </style>  
+</head>
+<body>
+    <div class="login_div">
+    <header>
+            <h1>Customer Details:</h1>
+    </header>
+    <hr>
+    <form> 
+           <label class="required">Full Name:</label><br>
+           <input type="text"  style="height:20px; width:250px;"required>
+           <input type="text"  style="height:20px; width:250px;"required><br>
+           <label style= "position: relative;font-size: x-small;">first name</label>
+           <label style= "position: relative;font-size: x-small;left:220px ;">last name</label>
+        <br><br>
+           <label class="required" >Address:</label><br>
+           <input type="text" style="height:20px; width:512px ;"required><br>
+           <label style= "position: relative;font-size: x-small;">Street Address</label>
+           <pre></pre>
+           <input type="text" style="height:20px; width:512px;"><br>
+           <label style= "position: relative;font-size: x-small;">Street Address line 2</label>
+           <pre></pre>
+           <input type="text"  style="height:20px; width:250px;">
+           <input type="text"  style="height:20px; width:250px;"><br>
+           <label style= "position: relative;font-size: x-small;">city</label>
+           <label style= "position: relative;font-size: x-small;left:245px ;">state/province</label>
+           <pre></pre>
+           <input type="text"  style="height:20px; width:512px ;" ><br>
+           <label style= "position: relative;font-size: x-small;">postal/zip code</label>
+        <br><br>
+            <label class="required">Phone Number:</label><br>
+            <input type="tel"  placeholder="(000) 000-0000 " pattern="[7-9]{1}[0-9]{9}"style="height:20px; width:250px;" required>
+        <br><br>
+            <label>E-mail:</label><br>
+            <input type="email"  placeholder="ex: email@yahoo.com " style="height:20px; width:250px;"><br>
+            <label style= "position: relative;font-size: x-small;">example@example.com</label>
+        <br><br>
+            <label class="required">How did you hear about us?</label><br>
+            <select style="height:30px; width:255px;"required>
+                <option value="magazine">Magazine</option>
+                <option value="social media">social media</option>
+            </select>
+        <br><br>
+            <label>Feedback about us:</label><br>
+            <textarea type="text" rows="5" cols="69"></textarea>
+        <br><br>
+            <label>Suggestions if any for further improvement:</label><br>
+            <textarea type="text" rows="5" cols="69"></textarea>
+        <br><br>
+            <label>Will you be willing to recommend us?</label>
+            <input type="checkbox" >
+        <br><br>
+            <label>Gender: </label>
+            <label><input type="radio" name="Gender">Male</label>
+            <label><input type="radio" name="Gender">Female</label>
+            <label><input type="radio" name="Gender">Others</label>
+        <br><br>
+            <label>Please give reference of any two people whom you feel:</label>
+            <pre></pre>
+            <table style="width:523px;"> 
+                <tr>
+                    <th style="border-color: white;"></th>
+                    <th style="background-color: lightgrey;">Full Name</th>
+                    <th style="background-color: lightgrey;">Address</th> 
+                    <th style="background-color: lightgrey;">Contact Number</th>
+                </tr>
+                <tr>
+                    <td style="background-color: lightgrey;">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="background-color: lightgrey;">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        <br><br>
+    <footer> 
+        <hr>
+            <input type="submit" style="color:white ;background-color: green; border: none;" ></input>
+    </footer> 
+    </form>
+    </div>
+</body>
+
